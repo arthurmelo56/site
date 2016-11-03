@@ -1,0 +1,18 @@
+peso = float(input("Digite o seu peso:  "))
+altura = float(input("Agora digite sua altura:  "))
+def calculoIMC(p, a):
+	IMC = p / (a * a)
+	return print("O seu IMC é: %.2f" % IMC)
+
+calculoIMC(peso,altura)
+print("+------------------------------------------------+")
+print("|Resultado             |Situação                 |")
+print("+------------------------------------------------+")
+print("|Abaixo de 17          |Muito abaixo do peso     |")
+print("|Entre 17 e 18,49      |Abaixo do peso           |")
+print("|Entre 18,50 e 24,99   |Peso normal              |")
+print("|Entre 25 e 29,99      |Acima do peso            |")
+print("|Entre 30 e 34,99      |Obesidade I              |")
+print("|Entre 35 e 39,99      |Obesidade II (Severa)    |")
+print("|Acima de 40           |Obesidade III (Mórbida)  |")
+input()

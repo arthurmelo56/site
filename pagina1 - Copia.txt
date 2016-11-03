@@ -1,0 +1,58 @@
+﻿	<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<link type="text/css" rel="stylesheet" href="./static/pagina2.css">
+		<title>Índice de Massa Corporal</title>
+		
+	</head>
+	<body>
+		<div id="header">
+			<div id="navbar">
+				<ul>
+					<a href="http://localhost:8080"><li>Principal</li></a>
+					<a href="http://lmgtfy.com/?q=dicas+para+emagrecer"><li>Dicas</li></a>
+					<a href="mailto:arthurmelo56@gmail.com,paulo.melo.95@gmail.com"><li>Contato</li></a>
+				</ul>
+			</div>
+			<h2>Veja seu peso ideal !</h2>
+		</div>
+		<div id="left">
+		
+		 <center><strong><b>O que &eacute; IMC ?
+        </strong></b></center>
+<p><strong>IMC</strong> é uma sigla utilizada para <strong>Índice de Massa Corporal</strong>.</p> 
+<p>O <strong>Índice de Massa Corporal</strong> é uma medida utilizada para <em>medir</em> a <em>obesidade</em> adotada pela <strong>Organização Mundial de Saúde</strong> (<em>OMS</em>). É o padrão internacional para avaliar o <em>grau de obesidade</em>.</p> 
+<p>O sobrepeso e a obesidade, indicados pelo <strong>IMC</strong>, são fatores de risco para doenças tais como a <em>hipertensão arterial</em>, a <em>doença arterial coronariana</em> e o <em>diabetes melittus</em>, além de outras patologias consideradas de alto risco para a Saúde Pública.</p> 
+<p>Hoje em dia, o <strong>IMC</strong> é utilizado como forma de comparar a saúde de populações, ou até mesmo definir prescrição de medicações.</p>
+<p>Os valores de <strong>IMC</strong> são independentes de idade e sexo. Apesar disso, o <strong>IMC</strong> pode não corresponder ao mesmo grau de gordura em diferentes populações devido às diferentes proporções do corpo.</p>
+<p>Riscos à saúde associados ao aumento do <strong>IMC</strong> <em>devem</em> ser constantemente observados e interpretados, já que podem ser diferentes em cada população.
+</p><p>Fonte: http://www.calculoimc.com.br/o-que-e-imc/</p>
+        
+		</div>
+		<div id="right">
+		<table>
+		<fieldset>
+		<center>
+			<h1>Calcule seu IMC:</h1>
+		<div class="col-md-20 col-sm-20 col-xs-20 text-center"><br>
+			<form method="GET" >
+				<div class="form-group">
+					<h1><label for="peso">Seu Peso&nbsp;</label>em kg:<br></h1>
+    			<input name="peso" id="peso" size="25" value="">
+				</div>
+				<div class="form-group">
+					<h1><label for="altura">Sua Altura&nbsp;</label>em cm:<br></h1>
+		    	<input name="altura" id="altura" size="25" value="">
+				
+        <div class="form-group" style="margin-top: 30px;">
+					<button type="submit" name="save"  value="save">Calcular IMC</button>
+				</div>
+			</form>
+		</center>
+		</fieldset>
+		</div>
+		</table>
+		</div>
+	</body>
+</html>

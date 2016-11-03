@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<link type="text/css" rel="stylesheet" href="./static/pagina2.css">
+		<title>Índice de Massa Corporal</title>
+	<style>
+	table, td, th {
+    		border: 2px solid black;
+	}
+
+	td {
+    		height: 35px;
+        text-align: center;
+	}
+
+	table {
+    		border-collapse: collapse;
+    		width: 100%;
+	}	
+	</style>
+	</head>
+	<body>
+		<div id="header">
+			<div id="navbar">
+				<ul>
+					<a href="http://localhost:8080"><li>Principal</li></a>
+					<a href="http://lmgtfy.com/?q=dicas+para+emagrecer"><li>Dicas</li></a>
+					<a href="mailto:arthurmelo56@gmail.com,paulo.melo.95@gmail.com"><li>Contato</li></a>
+				</ul>
+			</div>
+			<h2>Veja seu peso ideal !</h2>
+		</div>
+		<div id="left">
+		<center>
+		<h3>Calcular Peso Ideal:</h3>
+		</center>
+		
+		
+		<p>Calcular peso ideal através do Índice de Massa Corporal (<strong>IMC</strong>), é uma das formas para se obter um indicativo de que você está acima do <strong>peso ideal</strong> ou abaixo do <strong>peso ideal</strong> de forma simples e rápida.</p>
+
+<p>Desevolvido pela Organização Mundial de Saúde (OMS), o cálculo do <strong>peso ideal</strong> é feito utilizando a fórmula <strong>IMC = peso / (altura x altura)</strong>.</p>
+
+<p>Lembrando que calcular <strong>IMC</strong> não resolve todos os problemas, esse cálculo é apenas um indicador e não determina exatamente se você está abaixo ou acima do seu peso ideal, outros fatores como sexo, idade, condicionamento físico, etc, devem ser levados em conta.</p>
+
+
+
+Fonte: Calcular Peso Ideal - http://www.calcularpesoideal.com.br/#ixzz4OiYMZ9QP</p>
+        
+		</div>
+		<div id="right">
+		<table>
+			<p><h1>Seu IMC é: {{imc}}<br></p>
+			Você está no(a): {{categoria}}</h1>
+		</table>
+		<table id="tabela-resultado-imc"> 
+	<thead> 
+		<tr> 
+			<td class="td-first-col"><strong>Resultado</strong></td> 
+			<td><strong>Situação</strong></td> 
+		</tr> 
+	</thead> 
+	<tbody> 
+		<tr> 
+			<td class="td-first-col">Abaixo de 17</td> 
+			<td>Muito abaixo do <em>peso</em></td></tr> 
+		<tr> 
+			<td class="td-first-col">Entre 17 e 18,49</td> 
+			<td>Abaixo do <em>peso</em></td></tr> 
+		<tr> 
+			<td class="td-first-col">Entre 18,5 e 24,99</td> 
+			<td><em>Peso</em> normal</td></tr> 
+		<tr> 
+			<td class="td-first-col">Entre 25 e 29,99</td> 
+			<td>Acima do <em>peso</em></td></tr> 
+		<tr> 
+			<td class="td-first-col">Entre 30 e 34,99</td> 
+			<td><em>Obesidade</em> I</td></tr> 
+		<tr> 
+			<td class="td-first-col">Entre 35 e 39,99</td> 
+			<td><em>Obesidade</em> II (severa)</td></tr> 
+		<tr> 
+			<td class="td-first-col">Acima de 40</td> 
+			<td><em>Obesidade</em> III (mórbida)</td></tr> 
+	</tbody> 
+	</table>
+	</body>
+</html>
